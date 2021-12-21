@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Fish</title>
+</head>
+<body>
+    <h1>Predict Fish</h1>
+    <p>Predict Fish species based on the length, weight, height, etc.</p>
+
+    <form action="/submit" method="POST">
+        <p>Enter length of fish:</p>
+        <input type="number" name="length" placeholder="length">
+        <p>Enter weight of fish:</p>
+        <input type="number" name="weight" placeholder="weight">
+        <p>Enter width of fish:</p>
+        <input type="number" name="width" placeholder="width"><br><br>
+        <input type="submit" >
+        <br><br>
+        <h3>Some Results</h3>
+        <p>For length of fish: 33, For weight of fish: 1000, For width of fish: 6, Species of fish is: Bream</p>
+             <p>For length of fish: 58, For weight of fish: 60, For width of fish: 6, Species of fish is: Pike</p>
+             <p>For length of fish: 18, For weight of fish: 18, For width of fish: 2, Species of fish is: Perch</p>
+    </form>
+</body>
+</html>
